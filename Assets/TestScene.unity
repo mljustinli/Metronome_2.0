@@ -418,3 +418,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentBPM: 0
   Indicator: {fileID: 521433085}
+  Woodsound: {fileID: 8300000, guid: 18896b909016e40c6aa3455974481f2c, type: 3}

@@ -7,6 +7,7 @@ public class SoundController : MonoBehaviour {
 	public float currentBPM;
 
 	public GameObject Indicator;
+	public AudioClip Woodsound;
 
 	private AudioSource audiosrc;
 
@@ -15,7 +16,7 @@ public class SoundController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		currentBPM = 40.0f;
+		currentBPM = 200.0f;
 
 		audiosrc = GetComponent<AudioSource> ();
 
@@ -29,6 +30,8 @@ public class SoundController : MonoBehaviour {
 		if (Time.time - currTime >= deltaTime) {
 			currTime = Time.time;
 			//play a sound hopefully with no delay because it should be playing now...
+
+			audiosrc.PlayOneShot (Woodsound);
 
 			Indicator.transform.localScale = new Vector3 (7, 7);
 		} else {
