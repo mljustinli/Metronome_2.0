@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PiecePlayer : MonoBehaviour {
 
-	struct Meter {
+	public struct Meter {
 		public int top;
 		public int bottom;
 	}
@@ -15,13 +15,13 @@ public class PiecePlayer : MonoBehaviour {
 	}
 
 //	private int BPM = 200;
-	private Meter[] lists = new Meter[] {new Meter(3, 4), new Meter(4, 4)};
+//	private Meter[] lists = new Meter[] {new Meter(3, 4), new Meter(4, 4)};
 
 	private Meter m;
 
 	// Use this for initialization
 	void Start () {
-		m = new Meter (3, 4);
+//		m = new Meter (3, 4);
 	}
 	
 	// Update is called once per frame

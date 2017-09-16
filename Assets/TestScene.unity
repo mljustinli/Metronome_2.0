@@ -416,6 +416,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc3f9b12500f74283a08ebe616e190a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentBPM: 0
   Indicator: {fileID: 521433085}
   Woodsound: {fileID: 8300000, guid: 18896b909016e40c6aa3455974481f2c, type: 3}
